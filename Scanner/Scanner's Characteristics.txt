@@ -1,0 +1,48 @@
+The project is to write a scanner which has following characteristics:
+
+
+1. All the variables start with "X" and two integers follow it. ex: x45
+
+2. Each block starts with "start" and finishes with "finish".
+
+3. Numbers can be both integer and float.
+
+4. Conditions' structure are as the following:
+	condition("whatever the condition is")
+    	    start
+    	    ...
+	    finish
+
+5. Loops are as following:
+	loop
+	until ("whatever the condition is")
+
+6. Statements that are not a block statement, will end with "||", like ";" in c++.
+
+7. For assignments, use ":=".
+
+8. Use "integer" for integers, and "fpoint" for floats.
+
+9. Operators are:
+	+ 
+	-
+	/
+	*
+	>
+	<
+	>=
+	<=
+	=
+	<>
+
+10. Delemeters are:
+	||
+	)
+	(
+	:=
+
+11. Comments starts with:
+	//
+(same as in c++)
+
+12. Scanner should not create a token for empty lines and white spaces.
