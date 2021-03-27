@@ -1,0 +1,31 @@
+x12 := 1 ||  
+integer x12 ||
+fpoint x11 := 1 + 2 * ( 3 - 6 * (x10 + 1 ) - 2 ) ||
+condition ( x11 > 1 ) 
+x13 := 1 + 2 * 3 ||	
+x16 := 1 ||
+//iljjjlkjl
+fpoint x11 := 2.4 ||
+loop 
+x11 := 1 ||
+condition ( x11 < 2)
+start 
+condition ( x11 > 1 ) 
+start 
+fpoint x11 := 2.4 ||
+fpoint x11 := 2.4 ||
+x13 := 1 + 2 * 3 ||
+finish
+loop
+condition ( x11 > 1 ) 
+start 
+fpoint x11 := 2.4 ||
+fpoint x11 := 2.4 ||
+x13 := 1 + 2 * 3 ||
+finish
+until ( 1 < 2 ) 
+finish 
+until ( 1 < 2 ) 
+x12 := 12 ||
+fpoint x11 := 1 + 2 * ( 3 - 6 * ( x10 + 1 ) - 2 ) ||
+finish 
